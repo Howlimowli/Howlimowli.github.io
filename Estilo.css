@@ -107,3 +107,6 @@ figcaption{
     background-color: black;
     color: white;
 }
+table{
+    margin: auto;
+}
