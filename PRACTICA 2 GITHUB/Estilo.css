@@ -1,0 +1,98 @@
+body{
+    background-color: lightgreen;
+    font-family: 'Oswald', sans-serif;
+    margin: 0px;
+    font-size: large;
+    width: 100%;
+    text-align: center;
+}
+nav{
+    font-size: x-large;
+    background-color: lightcyan;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+
+}
+nav img{
+    width: 150px;
+}
+#enlaces{
+    display: flex;
+    align-items: center;
+}
+#enlaces *{
+    padding-right: 0.5em;
+}
+#formulario{
+    color: navy;
+}
+a{
+    color: navy;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+}
+
+table {
+width: 50%;
+background-color: green;
+}
+td img{
+    width: 300px;
+}
+th{
+    background-color: black;
+    color: white;
+}
+td{
+    text-align: center;
+}
+.fila1 img{
+    width: 300px;
+    height: 600px;
+    object-fit: cover;
+}
+.fila2 img{
+    width: 300px;
+    height: 600px;
+    object-fit: cover;
+}
+.fila1 p{
+    width: 300px;
+    height: 600px;
+    object-fit: cover;
+}
+table tr:nth-child(odd) td{
+background-color: yellowgreen;
+}
+tr td:first-child{
+    font-weight: bold;
+}
+.info1 p{
+    text-align: center;
+    margin-top: 10px;
+}
+.info1 img{
+    border-radius: 25%;
+    width: 100%;
+    float: right;
+    margin-top: 10px;
+}
+figure{
+    float: right;
+    padding: 3px;
+    max-width: 200px;
+    margin: auto;
+}
+figure img{
+    width: 100%;
+}
+figcaption{
+    color: black;
+    padding: 3px;
+    text-align: center;
+}
