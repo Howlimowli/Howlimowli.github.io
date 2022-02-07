@@ -1,10 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title></title>
 </head>
+
 <body>
-    <h1>Alvaro Rodriguez Martinez</h1>
+    <header>
+        <nav>
+            <div id="enlaces">
+                <img src="Imagenes/atp_logo_antes.jpg" alt="Logo del ATP WORLD TOUR">
+                <a href="#tenistas">Grandes tenistas de la historia</a>
+                <a href="#ranking">Ranking Ganadores Grand Slam</a>
+                <a href="#inf">Rafael Nadal</a>
+            </div>
+            <div id="formulario">
+                <form action="">
+                    <label for="nombre">Usuario: </label>
+                    <input id="nombre" name="nombre" type="text" required maxlength="12">
+                    <label for="pass">Contraseña: </label>
+                    <input id="pass" name="pass" type="password" required>
+                    <button type="submit">Acceder</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <h1>ATP WORLD TOUR</h1>
+    <h2 id="tenistas">Grandes tenistas de la historia</h2>
+    <div class="cajon_fotos">
+        <div class="fila1">
+            <img src="Imagenes/Rafa_Nadal.jpg" alt="foto de Rafa Nadal">
+            <img src="Imagenes/Roger_federer.jpg" alt="foto de Roger Federer">
+            <img src="Imagenes/Djokovic.jpg" alt="Foto de Novak Djokovic">
+            <img src="Imagenes/Pete-Sampras.jpg" alt="Foto de Pete Pete Sampras">
+            <img src="Imagenes/bjorn-borg.jpg" alt="Foto de Bjorn Borg">
+            <img src="Imagenes/Ivan_lendl.jpg" alt="Foto de Ivan Lendl">
+        </div>
+        <div class="fila2">
+            <img src="Imagenes/Jimmy_Connors.jpg" alt="Foto de Jimmy Connors">
+            <img src="Imagenes/Andrea_agassi.jpeg" alt="Foto de Andre Agassi">
+            <img src="Imagenes/John_mcenroe.jpg" alt="Foto de John Mcenroe">
+            <img src="Imagenes/Mats_wilander.jpg" alt="Foto de Mats Wilander">
+            <img src="Imagenes/Stefan_Edberg.jpg" alt="Foto de Stefan Edberg">
+            <img src="Imagenes/Boris_becker.jpg" alt="foto de Boris Becker">
+        </div>
+    </div>
+    <h2 id="ranking">Ranking Ganadores Grand Slam</h2>
+    <table border="1">
+        <tr>
+            <th>Nombre</th>
+            <th>Nacimiento</th>
+            <th>Nacionalidad</th>
+            <th>Retirada</th>
+            <th>Grand Slams</th>
+            <th>Foto</th>
+        </tr>
+        <tr>
+            <td>Rafael Nadal</th>
+            <td>3 de junio de 1986</th>
+            <td>España</th>
+            <td>En activo</th>
+            <td>21 Grand Slams (8 Finalista)</th>
+            <td><img src="imagenes/Rafa_Nadal.jpg" alt="foto rafa nadal"></th>
+        </tr>
+        <tr>
+            <td>Roger Federer</td>
+            <td>8 de agosto de 1981</td>
+            <td>Suiza</td>
+            <td>En activo</td>
+            <td>20 Grand Slams (11 finalista)</td>
+            <td><img src="imagenes/Roger_federer.jpg" alt="foto de Roger Federer"></td>
+        </tr>
+        <tr>
+            <td>Novak Djokovic</td>
+            <td>22 de mayo de 1987</td>
+            <td>Serbia</td>
+            <td>En activo</td>
+            <td>20 Grand Slams (11 finalista)</td>
+            <td><img src="Imagenes/Djokovic.jpg" alt="Foto de Novak Djokovic"></td>
+        </tr>
+        <tr>
+            <td>Pete Sampras</td>
+            <td>12 de agosto de 1971</td>
+            <td>Estados Unidos</td>
+            <td>2003</td>
+            <td>14 Grand Slams (4 finalista)</td>
+            <td><img src="imagenes/Pete-Sampras.jpg" alt="Foto de Pete Pete Sampras"></td>
+        </tr>
+        <tr>
+            <td>Bjorn Borg</td>
+            <td>6 de junio de 1956</td>
+            <td>Suecia</td>
+            <td>1982</td>
+            <td>11 Grand Slams (5 finalista)</td>
+            <td><img src="imagenes/bjorn-borg.jpg" alt="Foto de Bjorn Borg"></td>
+        </tr>
+        <tr>
+            <td>Ivan Lendl</td>
+            <td>7 de marzo de 1960</td>
+            <td>Republica Checa</td>
+            <td>1994</td>
+            <td>8 Grand Slams (11 finalista)</td>
+            <td><img src="Imagenes/Ivan_lendl.jpg" alt="Foto de Ivan Lendl"></td>
+        </tr>
+        <tr>
+            <td>Jimmy Connors</td>
+            <td>2 de septiembre de 1952</td>
+            <td>Estados Unidos</td>
+            <td>1996</td>
+            <td>8 Grand Slams (7 finalista)</td>
+            <td><img src="Imagenes/Jimmy_Connors.jpg" alt="Foto de Jimmy Connors"></td>
+        </tr>
+        <tr>
+            <td>Andre Agassi</td>
+            <td>29 de abril de 197</td>
+            <td>Estados Unidos</td>
+            <td>2006</td>
+            <td>8 Grand Slams (7 finalista)</td>
+            <td><img src="Imagenes/Andrea_agassi.jpeg" alt="Foto de Andre Agassi"></td>
+        </tr>
+        <tr>
+            <td>John Mcenroe</td>
+            <td>16 de febrero de 1959</td>
+            <td>Estados Unidos</td>
+            <td>1992</td>
+            <td>7 Grand Slams (4 finalista)</td>
+            <td><img src="Imagenes/John_mcenroe.jpg" alt="Foto de John Mcenroe"></td>
+        </tr>
+        <tr>
+            <td>Mats Wilander</td>
+            <td>22 de agosto de 1964</td>
+            <td>Suecia</td>
+            <td>1996</td>
+            <td>7 Grand Slams (4 finalista)</td>
+            <td><img src="Imagenes/Mats_wilander.jpg" alt="Foto de Mats Wilander"></td>
+        </tr>
+        <tr>
+            <td>Stefan Edberg</td>
+            <td>19 de enero de 1966</td>
+            <td>Suecia</td>
+            <td>1996</td>
+            <td>6 Grand Slams (5 finalista)</td>
+            <td><img src="Imagenes/Stefan_Edberg.jpg" alt="Foto de Stefan Edberg"></td>
+        </tr>
+        <tr>
+            <td>Boris Becker</td>
+            <td>22 de noviembre de 1967</td>
+            <td>Alemania</td>
+            <td>1999</td>
+            <td>6 Grand Slams (4 finalista)</td>
+            <td><img src="imagenes/Boris_becker.jpg" alt="Foto de Boris Becker"></td>
+        </tr>
+    </table>
+    <div class="info1">
+        <h2 id="inf">Rafael Nadal</h2>
+        <figure>
+            <img src="Imagenes/Rafa_Nadal.jpg" alt="Foto de rafa nadal">
+            <figcaption>Foto de Rafa Nadal</figcaption>
+        </figure>
+
+        <p>Está considerado como el mejor tenista de toda la historia en pistas de tierra batida y uno de los
+            mejores de
+            todos los tiempos. Hasta la fecha, es el tenista con mayor número de títulos de Grand Slam en
+            individuales,
+            con
+            21, por delante del suizo Roger Federer y del serbio Novak Djokovic, ambos con 20. Ha conseguido el
+            Abierto
+            de
+            Australia en dos ocasiones, el Torneo de Roland Garros en trece ediciones (siendo el tenista que más
+            veces
+            lo ha
+            ganado), el Campeonato de Wimbledon en dos ocasiones y el Abierto de Estados Unidos en cuatro ocasiones.
+            Se
+            encuentra en segunda posición, tras el serbio Novak Djokovic (37), como jugador con más títulos de
+            Masters
+            1000
+            en modalidad individual, con 36; y por delante de otros célebres tenistas como Roger Federer (28), Ivan
+            Lendl
+            (22), John McEnroe (19), Jimmy Connors (17) o Andre Agassi (17).</p>
+
+        <p>Es el tenista masculino más joven de la historia en conseguir el Golden Slam en la carrera, que consiste
+            en
+            lograr los cuatro Grand Slam y la medalla de oro en los Juegos Olímpicos a lo largo de la carrera, logro
+            únicamente compartido con el estadounidense Andre Agassi. Es, junto al serbio Novak Djokovic, uno de los
+            dos
+            tenistas masculinos en toda la Era Abierta en conseguir el Doble Grand Slam en la carrera, que consiste
+            en
+            ganar, al menos dos veces, cada uno de los cuatro Grand Slam a lo largo de la carrera. Además, ambos
+            tenistas
+            son los únicos que han sido capaces de ganar en un mismo año (2010) tres Grand Slams en tres superficies
+            distintas. Nadal es el tenista que más veces ha ganado desde el comienzo de la Era Abierta un mismo
+            torneo
+            de
+            Grand Slam y Masters 1000: Roland Garros y Montecarlo (el primero en trece ocasiones y el segundo en
+            once);
+            y el
+            primero en ganar al menos un título de Grand Slam durante diez temporadas consecutivas (desde 2005 hasta
+            2014).
+        </p>
+        <p>Ocupa la cuarta posición en la lista de jugadores con más títulos ATP con 90, sólo por detrás del
+            estadounidense
+            Jimmy Connors (109), del suizo Roger Federer (103) y del checo Ivan Lendl (94). Actualmente es el
+            tenista
+            con
+            más títulos conseguidos outdoor (88) y el tenista con más títulos conseguidos en tierra batida (62) de
+            la
+            Era
+            Abierta. Adicionalmente, se encuentra en segunda posición como jugador con más títulos ATP Tour 500
+            ganados
+            (22), sólo por detrás del suizo Roger Federer (24).</p>
+        <p>A lo largo de su carrera, Nadal se ha enfrentado a 304 rivales; y únicamente frente a dos jugadores posee
+            un
+            récord negativo habiéndose enfrentado un mínimo de 10 ocasiones entre ellos: el serbio Novak Djokovic
+            (28-30) y
+            el ruso Nikolai Davydenko (5-6), este último ya retirado. Además, es el cuarto tenista por cantidad de
+            victorias
+            en toda la historia, con 1038, y cuenta actualmente con el segundo mejor rendimiento de la historia con
+            un
+            83,24% de victorias, llegando a alcanzar un pico de 83,84% después de Roland Garros 2014. Del mismo
+            modo,
+            solamente a 7 no logró vencerlos en un partido oficial; por otra parte a 297 logró ganarles al menos una
+            vez.
+            Adicionalmente, Nadal ha vencido a 20 contrincantes 10 o más veces; y 4 rivales 20 o más. Acumula 550
+            victorias
+            frente a 81 jugadores que llegaron a ser Top-10; 331 triunfos contra 42 tenistas que fueron Top-5; y 100
+            victorias contra 9 jugadores que llegaron a ser número 1 del mundo.</p>
+        <p>Es el tenista español con el mayor número de títulos individuales (90, superando a Manuel Orantes y a
+            Conchita
+            Martínez, con 33), más títulos de Grand Slam (21, superando a Manolo Santana y a Arantxa Sánchez
+            Vicario,
+            con
+            4), más títulos de Masters 1000 (36, superando a Conchita Martínez, con 9) y con más semanas en el
+            número 1
+            del
+            ranking mundial de la ATP, con 209. Es el único tenista en la historia del tenis en ser número 1 en tres
+            décadas
+            diferentes: 2000s, 2010s y 2020s.</p>
+    </div>
+    <h2>Sus mayores rivales</h2>
+    <details>
+        <summary>Roger Federer</summary>
+        <figure>
+            <img src="Imagenes/Roger_federer.jpg" alt="Foto de roger federer">
+            <figcaption>Foto de Roger Federer</figcaption>
+        </figure>
+
+        <p> Actualmente ocupa la decimosexta posición en el ranking de la Asociación de Tenistas Profesionales
+            (ATP). Ha
+            ganado 20 títulos individuales masculinos de Grand Slam. Federer ha sido el número 1 del mundo en el
+            ranking
+            ATP por 310 semanas -incluido un récord de 237 semanas consecutivas- y ha terminado el año como el
+            número 1
+            en cinco ocasiones. Federer ha ganado 103 títulos individuales de ATP, el segundo máximo ganador
+            histórico,
+            solo por detrás de Jimmy Connors, incluyendo un récord de seis títulos del Torneos de Maestros.</p>
+        <p>Federer ha jugado en una era en la que dominó el tenis masculino junto con Rafael Nadal y Novak Djokovic,
+            a
+            quienes se los conoce colectivamente como el Big Three, y son ampliamente considerados tres de los
+            mejores
+            tenistas masculinos de todos los tiempos.12​13​14​15​ Habiendo sido campeón junior del Campeonato de
+            Wimbledon en 1998, a los 21 años Federer ganó su primer título de individuales de Grand Slam en el
+            Wimbledon
+            de 2003. En 2004, se consolidó como el mejor jugador en tenis masculino al ganar tres de los cuatro
+            grandes
+            títulos individuales y el Torneo de Maestros, una hazaña que también repetiría en 2006 y 2007. De 2005 a
+            2010, Federer llegó a 18 de 19 finales de singles importantes. Durante esta racha, ganó su quinto título
+            consecutivo en Wimbledon y US Open. Completó su carrera en Grand Slam cuando ganó el Roland Garros en
+            2009,
+            luego de tres subcampeonatos consecutivos ante Rafael Nadal, su principal competidor hasta 2010. Con 27
+            años, también sobrepasó el récord de Pete Sampras de 14 títulos en individuales de Grand Slam cuando
+            ganó el
+            Wimbledon de 2009.</p>
+        <p>A pesar de que Federer ha permanecido en el top-3 durante la mayor parte de los 2010, el éxito de
+            Djokovic y
+            Nadal en particular terminaron su dominio en las pistas de césped y cemento. Desde la mitad de 2010
+            hasta
+            finales del 2016 solo pudo ganar un título importante. Durante este periodo, Federer y Stan Wawrinka
+            lideraron al equipo de Suiza a su primer título de la Copa Davis en 2014, añadiéndose a la medalla de
+            oro
+            que obtuvieron juntos en dobles en los Juegos Olímpicos de Pekín de 2008. Federer también recibió la
+            medalla
+            de plata en los Olímpicos de Londres de 2012, donde terminó como subcampeón de Andy Murray. Después de
+            tomarse un año fuera a finales de 2016 para recuperarse de una lesión del tobillo, Federer tuvo un
+            resurgimiento en los títulos mayores. En los dos años siguientes ganó tres títulos más de singles de
+            Grand
+            Slams, incluido el Australia Open de 2017 sobre Nadal, y más tarde de ese mismo año un histórico octavo
+            título en individuales masculinos de Wimbledon. También se convirtió en el número 1 más viejo del
+            ranking
+            ATP en 2018, con 36 años.</p>
+    </details>
+    <details>
+        <summary>Novak Djokovic</summary>
+        <figure>
+            <img src="Imagenes/Djokovic.jpg" alt="Foto de novak Djokovic">
+            <figcaption>Foto de Novak Djokovic</figcaption>
+        </figure>
+
+        <p>Actualmente, ocupa el Número 1 en el Ranking ATP individual y es el poseedor del récord de más semanas
+            como
+            Número 1 del Ranking ATP con un total de 346+ es el primer tenista en la historia en adjudicarse con
+            récord
+            absoluto de 100 semanas en el N°1 desde que ha cumplido 30 años. El serbio registra una cifra histórica
+            de
+            puntos ATP de 16.950 logrado en la temporada 2016 que es récord nunca antes visto en la historia del
+            tenis.
+            Ha finalizado el año como número 1 del Mundo en 7 ocasiones, superando en el año 2021 el récord de Pete
+            Sampras (6 ocasiones); es el tenista más destacado y más laureado de los años 20108​ y es considerado
+            por
+            estos motivos como uno de los mejores tenistas de todos los tiempos y uno de los mejores deportistas de
+            toda
+            la historia.</p>
+        <p>Sus 20 títulos de Grand Slam ganados por ahora son: Abierto de Australia en 9 ocasiones, 2008,9​ 2011,10​
+            2012,11​ 2013,12​ 2015,13​ 2016, 2019, 2020 y 2021),14​ Campeonato de Wimbledon en seis ocasiones (2011,
+            2014, 2015, 2018,15​201916​ y 2021), Abierto de Estados Unidos en tres ocasiones (201117​ y 201518​ y
+            2018)
+            y Torneo de Roland Garros en dos ocasiones (2016 y 2021). Es el cuarto tenista en la era abierta que
+            gana el
+            doblete Australia-Roland Garros (2016 y 2021). Es el primer tenista masculino desde Rod Laver (1969) que
+            se
+            Corona con los tres primeros Grand Slam de la temporada; Abierto de Australia, Roland Garros y Wimbledon
+            y
+            es el primer tenista en lograr conquistar los tres primeros Grand Slam de la temporada sobre tres
+            superficies diferentes (2021). Llegó a seis finales de Grand Slam de forma consecutiva, ganando en cinco
+            de
+            ellas (desde el Abierto de Australia 2015 hasta Roland Garros 2016); y posee el récord de más victorias
+            consecutivas en Grand Slam en la era abierta con 30 (2015-2016), es el primer tenista en encadenar
+            cuatro
+            rachas diferentes de veinte victorias consecutivas o más en Grand Slam desde el inicio de la era abierta
+            con
+            30 (2015-2016), 27 (2011-2012), 26 (2018-2019) y 27 (2021). De esta manera, se une al selecto grupo de 8
+            jugadores que han completado el Grand Slam, con Fred Perry, Don Budge, Rod Laver, Roy Emerson (antes de
+            la
+            era abierta) y Rod Laver, Andre Agassi, Roger Federer y Rafael Nadal (en la era abierta).</p>
+        <p>El serbio es el primer y único jugador en toda la historia en ganar todos los Masters 1000 (el Golden
+            Masters
+            1000), obteniendo 37 títulos en los torneos (54 finales en total), con lo que se ubica primero en el
+            balance
+            histórico superando a Rafael Nadal (36 títulos); además, es el primer y único tenista en toda la
+            historia
+            que ha conseguido al menos 2 veces los 9 ATP Masters 1000 (Indian Wells, Miami, Montecarlo, Madrid,
+            Roma,
+            Canadá, Cincinnati, Shanghái y París), es el jugador con más victorias consecutivas en masters 1000 con
+            30
+            (2014-2015) y 31 (2011). Ha ganado el Torneo de Maestros cinco veces (2008, 2012,19​ 2013, 2014 y 2015),
+            siendo el primer jugador en ganar este certamen cuatro veces seguidas (2012, 2013, 2014 y 2015) y el
+            cuarto
+            en llegar a cinco títulos. Djokovic ha ganado todos los torneos de élite que otorgan puntos para el
+            ranking
+            ATP: los 4 Grand Slam, la Copa de Maestros, la Copa Davis, la Copa Hopman, la ATP Cup y los 9 Masters
+            1000,
+            además de una medalla de bronce Olímpica (si bien es cierto que los Juegos Olímpicos no otorgan puntos
+            ATP).
+        </p>
+    </details>
 </body>
+
 </html>
