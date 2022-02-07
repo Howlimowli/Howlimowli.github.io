@@ -91,9 +91,10 @@ tr td:first-child{
 }
 figure{
     float: right;
-    padding: 3px;
     max-width: 200px;
     margin: auto;
+    background-color: grey;
+    border: 1px;
 }
 figure img{
     width: 100%;
